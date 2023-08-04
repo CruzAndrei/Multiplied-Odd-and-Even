@@ -5,8 +5,9 @@
 def Multiply():
 #open the three text files
     with open("integers.txt", "r") as integers_numbers, open("double.txt", "a") as even_integers, open("triple.txt", "a") as odd_integers:
-
-#read the numbers.txt that contains 20integers in each line    
+#read the numbers.txt that contains 20integers in each line 
+        for line in integers_numbers:
+            input_number = int(line)
 #if the numbers are even
 #square the numbers
 #write it in the double.txt
