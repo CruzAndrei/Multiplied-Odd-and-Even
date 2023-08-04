@@ -14,8 +14,10 @@ def Multiply():
                 even_squared = input_number * input_number
             #write it in the double.txt
                 even_integers.write(str(even_squared) + "\n")
+            #if the numbers are odd
+            else:
+            #cubed the numbers
+                odd_cubed = input_number * input_number * input_number
 
-#if the numbers are odd
-#cubed the numbers
 #write it in the triple.txt
 Multiply()
