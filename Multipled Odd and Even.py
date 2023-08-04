@@ -18,6 +18,7 @@ def Multiply():
             else:
             #cubed the numbers
                 odd_cubed = input_number * input_number * input_number
+            #write it in the triple.txt
+                odd_integers.write(str(odd_cubed) + "\n")
 
-#write it in the triple.txt
 Multiply()
