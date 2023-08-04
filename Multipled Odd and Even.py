@@ -8,8 +8,11 @@ def Multiply():
 #read the numbers.txt that contains 20integers in each line 
         for line in integers_numbers:
             input_number = int(line)
-#if the numbers are even
-#square the numbers
+            #if the numbers are even
+            if input_number % 2 == 0:
+            #square the numbers
+                even_squared = input_number * input_number
+
 #write it in the double.txt
 #if the numbers are odd
 #cubed the numbers
